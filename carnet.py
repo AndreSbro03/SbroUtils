@@ -122,6 +122,3 @@ print("Il giorno migliore per comprare il biglietto è il " +
       " in cui potresti comprare " + str(maxBill) + " biglietti. \n" + "Scadrebbe il " + str(lastday))
 
 print("In alternativa i giorni con gli stessi risulatati sono: ", str(allGoods))
-
-
-

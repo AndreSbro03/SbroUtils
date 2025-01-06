@@ -1,3 +1,6 @@
+## Codice realizzato da Andrea Sbrogiò (andrea.sbrogio.dev@gmail.com)
+## L'algoritmo ha l'obbiettivo di trovare il miglior gionro in cui comprare un carnet da 30 giorni ipotizzando un uso bisettimanale il luendì ed il venerdì.
+
 import calendar
 import time
 

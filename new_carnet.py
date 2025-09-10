@@ -14,8 +14,16 @@ class CarnetResult:
 
     def toDict(self):
         return {
-            "buyDay": self.buyDay,
-            "endingDay": self.endingDay,
+            "buyDay": {
+                "day": self.buyDay.day,
+                "month": self.buyDay.month,
+                "year": self.buyDay.year
+            },
+            "endingDay": {
+                "day": self.endingDay.day,
+                "month": self.endingDay.month,
+                "year": self.endingDay.year
+            },
             "rides": self.rides,
             "avgCost": self.avgCost
         }

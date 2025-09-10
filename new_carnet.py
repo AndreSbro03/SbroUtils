@@ -12,6 +12,14 @@ class CarnetResult:
         self.rides = rides
         self.avgCost = avgCost
 
+    def toDict(self):
+        return {
+            "buyDay": self.buyDay,
+            "endingDay": self.endingDay,
+            "rides": self.rides,
+            "avgCost": self.avgCost
+        }
+
 
 class Carnet:
     def __init__(self, duration, cost, startingDate, regularDays=[0, 4]):

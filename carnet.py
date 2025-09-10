@@ -1,5 +1,8 @@
 ## Codice realizzato da Andrea Sbrogiò (andrea.sbrogio.dev@gmail.com)
 ## L'algoritmo ha l'obbiettivo di trovare il miglior gionro in cui comprare un carnet da 30 giorni ipotizzando un uso bisettimanale il luendì ed il venerdì.
+## L'algoritmo carica due mesi, quello con la data corrente e quello con la data di termine del carnet, elimina le settimane non utili. 
+## Rimuove poi ognuna delle settimane in mezzo a quelle delle date iniziali e finali aggiungendo 2 biglietti al contatore per ogni settimana rimossa.
+## Alla fine controlla i giorni rimanenti per vedere se sono presenti lunedì o venerdì e aggiorna il contatore.
 
 import calendar
 import time
